@@ -1,6 +1,8 @@
 #include<stdio.h>
 /**
- * main function which allows the program toexecute the text
+ * main - print the provided text
+ *
+ * Return: return zero
  */
 int main(void)
 {
