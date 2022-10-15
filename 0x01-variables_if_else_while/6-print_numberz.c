@@ -10,9 +10,10 @@ int a = 0;
 
 while (a < 10)
 {
-putchar('%d',a);
+putchar(a + '0');
 a++;
 }
-
+putchar('\n');
+return (0);
 
 }
