@@ -10,18 +10,19 @@ int a = 0;
 
 while (a <= 9)
 {
-if (a < 9)
+if (a <= 8)
 {
 putchar(a + '0');
 putchar(',');
+putchar(' ');
 }
 else
 {
+putchar(' ');
 putchar(a + '0');
 }
 
 a++;
-putchar(' ');
 }
 return (0);
 }
