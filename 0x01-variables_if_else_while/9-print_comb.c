@@ -18,7 +18,6 @@ putchar(' ');
 }
 else
 {
-putchar(' ');
 putchar(a + '0');
 }
 
