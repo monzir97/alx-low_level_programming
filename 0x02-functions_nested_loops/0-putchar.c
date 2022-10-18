@@ -1,9 +1,13 @@
 #include<stdio.h>
-
-void main(void)
+/**
+ * main- print _putcharc
+ *
+ * Return: returns zeros
+ */
+int  main(void)
 {
 printf("_putchar \n");
-
+return (0);
 
 
 }
