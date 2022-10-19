@@ -1,5 +1,7 @@
 #include "header.h"
-
+/**
+ *print_alphabet- print all alphabet followd by new line
+ */
 void print_alphabet(void)
 {
 char i = 'a';
