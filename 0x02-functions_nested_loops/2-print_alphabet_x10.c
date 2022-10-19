@@ -2,12 +2,18 @@
 /**
  *print_alphabet_x10- returns the alphabet ten times
  */
-print_alphabet_x10(void)
+void print_alphabet_x10(void)
 {
-i = 0;
+int i = 0;
 while (i < 10)
 {
-print_alphabet();
+char c = 'a';
+while (c <= 'z')
+{
+_putchar(c);
+c++;
+}
+_putchar('\n');
 i++;
 }
 }
