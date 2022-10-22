@@ -1,6 +1,8 @@
 #include "main.h"
-/*
- *print_line- draw striaght line in terminal
+
+/**
+ * print_line - draw striaght line in terminal
+ *@n: the parameter
  *Return: it returns zero
  */
 void print_line(int n)
